@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
 {
+    // Write a function to calculate the factorial of a number
     int i,num;
-    printf("enter a number");
+    printf("Program to calculate the factorial of a number\n");
+    printf("Enter a number: ");
     scanf("%d",&num);
-    for (i=1 ; i<=num ; ++i)
+    for (i=1; i<=num; i++)
     {
-        printf("%dx",i);
-
+        printf("%d",i);
+        if (i<num)
+        printf(" x ");
     }
-    return 0;
 }
