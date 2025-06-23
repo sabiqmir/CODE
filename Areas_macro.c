@@ -7,17 +7,17 @@
 int main() {
     float side, radius, base, height;
 
-    // Square
+   
     printf("Enter side of square: ");
     scanf("%f", &side);
     printf("Area of square = %.2f\n", AREA_SQUARE(side));
 
-    // Circle
+   
     printf("Enter radius of circle: ");
     scanf("%f", &radius);
     printf("Area of circle = %.2f\n", AREA_CIRCLE(radius));
 
-    // Triangle
+    
     printf("Enter base and height of triangle: ");
     scanf("%f%f", &base, &height);
     printf("Area of triangle = %.2f\n", AREA_TRIANGLE(base, height));
