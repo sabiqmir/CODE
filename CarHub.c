@@ -1,4 +1,4 @@
-// Car Hub  //
+// Car Hub is an program to showcase use of  structure   //
 #include <stdio.h>
 struct cars
 {
