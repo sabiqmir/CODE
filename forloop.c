@@ -12,3 +12,4 @@ int main()
 printf("%d",k);
     return 0;
 }
+// Find sum up n numbers
